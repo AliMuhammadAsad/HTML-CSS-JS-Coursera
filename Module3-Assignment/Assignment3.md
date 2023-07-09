@@ -2,6 +2,8 @@
 
 ## Module 3 Coding Assignment
 
+(Assignment remains incomplete as I was unable to implement the toggle navigation functionality no matter what I tried - looking for help)
+
 For this course, upon completion of Module 3 which was about designing a website for a real life client, we were further introduced to the Bootstrap framework, and how to use Bootstrap to create responsive webpages.
 
 The assignment is to develop a simple but responsive food website that adheres to some criteria as follows:
