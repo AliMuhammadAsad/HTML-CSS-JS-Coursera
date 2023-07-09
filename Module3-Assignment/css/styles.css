@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+.navbar-header {
+    display: flex;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+.navbar-brand h1{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 5px; margin-bottom: 5px; margin-left: 15px; 
+    line-height: 0.75;
+}
+
+.header-nav button.navbar-toggle, .navbar-header, .icon-bar {
+    background-color: lightgray;
+    /* border: 2px solid black !important; */
+    /* border-radius: 5px; */
+}
+
+#collapsable-nav {
+    background-color: lightgray;
+}
+
+#nav-list {
+    margin-bottom: 0; margin-top: 0;
+    text-align: center;
+}
+
+#nav-list li {
+    border: 1px solid midnightblue;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+#nav-list li:hover{
+    font-weight: bold;
+    background-color: gray;
+}
+
+#menu-heading {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.25 em;
+    font-weight: light;
+}
+
+.content-box {
+    background-color: lightgray;
+    color: midnightblue;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.content-box h3{
+    color: black;
+    margin: 5px; padding: 5px;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px){
+    #collapsable-nav {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+    .content-box {
+        margin-left: 15px; margin-right: 15px;
+    }
+
+    #collapsable-nav {
+        background-color: lightgray;
+        visibility: visible;
+    }
+
+    #nav-list {
+        margin-bottom: 1px;
+        margin-top: 0;
+    }
+
+    #nav-list li{
+        text-align: center;
+        border: 1px solid midnightblue;
+        border-radius: 1px;
+    }
+
+    #nav-list li:hover{
+        font-weight: bold;
+        background-color: gray;
+    }
+}
