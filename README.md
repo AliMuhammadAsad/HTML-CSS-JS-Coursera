@@ -11,4 +11,4 @@ Return back to the GitHub repository [over here](https://github.com/AliMuhammadA
 - [Module 2 Assignment](Module2-Assignment)
 - [Module 3 Assignment](Module3-Assignment)
 - [Module 3 Assignment Completed](Module3-Assignment-Complete)
-- [Module 4 Assignment](Module-4-Assignment)
+- [Module 4 Assignment](Module4-Assignment)
